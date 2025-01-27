@@ -81,7 +81,7 @@ chromedriver = "chromedriver"
 driver = webdriver.Chrome(options=chrome_options)
 driver.get(website)
 
-target_time = time(13, 59, 30)
+target_time = time(3, 59, 57)
 print("Waiting until:", target_time)
 wait_until_target_time(target_time)
 
@@ -91,7 +91,7 @@ wait_until_target_time(target_time)
 text_to_find = "Number of Guests"
 # Wait time before refresh
 sleep_time = 2
-num_of_guests = 2
+num_of_guests = 5
 
 url2check = 'https://reserve.pokemon-cafe.jp/reserve/step1'
 refresh_until_found(text_to_find, sleep_time, url2check)
