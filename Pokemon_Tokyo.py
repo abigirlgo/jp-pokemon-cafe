@@ -81,7 +81,7 @@ chromedriver = "chromedriver"
 driver = webdriver.Chrome(options=chrome_options)
 driver.get(website)
 
-target_time = time(13, 59, 30)
+target_time = time(4, 10, 30)
 print("Waiting until:", target_time)
 wait_until_target_time(target_time)
 
